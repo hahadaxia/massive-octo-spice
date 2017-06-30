@@ -16,9 +16,9 @@ defaults:
     - status
   description: <malware> <threat>
   additional_data:
-    -   threat: <threat>
-        malware: <malware>
-        status: <status>
+    -  threat: <threat>
+       malware: <malware>
+       status: <status>
 feeds:
   ransomware:
     remote: http://ransomwaretracker.abuse.ch/feeds/csv
